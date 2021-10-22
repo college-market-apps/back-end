@@ -1,0 +1,38 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Jade server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node script/seed.js",
+    "start:dev": "nodemon .",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/graphql-upload": "^8.0.6",
+    "aws-sdk": "^2.943.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "firebase": "^8.10.0",
+    "firebase-admin": "^9.11.1",
+    "graphql": "^15.5.1",
+    "graphql-upload": "^12.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "plaid": "^9.0.0-beta.13",
+    "sequelize": "^6.6.2",
+    "uuid": "^8.3.2"
+  }
+}
